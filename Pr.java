@@ -9,8 +9,8 @@ public class Pr {
 
     // Method to check if a number is prime
     public static boolean isPrime(int numm) {
-        for (int j = 2; j <= Math.sqrt(numm); j++) {
-            if (numm % j == 0) {
+        for (int j1 = 2; j1 <= Math.sqrt(numm); j1++) {
+            if (numm % j1 == 0) {
                 return false;
             }
         }
