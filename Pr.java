@@ -1,8 +1,8 @@
 public class Pr {
     public static void main(String[] args) {
-        for (int i = 2; i <= 100; i++) {
-            if (isPrime(i)) {
-                System.out.print(i + " ");
+        for (int i1 = 2; i1 <= 100; i1++) {
+            if (isPrime(i1)) {
+                System.out.print(i1 + " ");
             }
         }
     }
